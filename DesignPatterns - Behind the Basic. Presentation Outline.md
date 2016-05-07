@@ -125,12 +125,13 @@
 1. Minimize memory use by sharing data with similar typed objects
 2. This is an optimization pattern
 3. Lots of objects pass around, we don't want to create them for every client/end user
-3. Utilizes a factory pattern
-3. We have large number of similar objects which are stateless/immutable
-4. Strings in c# are immutable and the cLR conserves storage by maintaining a table, called the intern pool. The intern pool is the flyweight factory.
-5. Same as prototype? No - Prototype clones to a new instance
-6. Client requests an object from factory and doesn't know it's a flyweight object (flyweight is under the hood)
-7. Demonstrations - restaurant menu, inventory management system
+4. Utilizes a factory pattern
+5. We have large number of similar objects which are stateless/immutable
+6. Strings in c# are immutable and the cLR conserves storage by maintaining a table, called the intern pool. The intern pool is the flyweight factory.
+7. Same as prototype? No - Prototype clones to a new instance
+8. Client requests an object from factory and doesn't know it's a flyweight object (flyweight is under the hood)
+9. Demonstrations - restaurant menu, inventory management system
+
 ----------
 
 ## The more simple ones (if time permits):
