@@ -24,6 +24,8 @@
 	4. One shot creation and **not piece-wise** (remember this when we get to the **builder**).
 	5. Demonstration - The Zap compare prices page (some show 'buy', some 'smart buy', some show PayPal icon, some show 'public trust').
 	6. Demonstration - Database dll replacement on disk without recompiling
+
+![](https://raw.githubusercontent.com/zivgi/DesignPatterns---Behind-the-Basic.-Presentation-for-Zap/master/5-7-2016%2011-04-09%20AM.jpg)
 </br>
 2. The abstract factory pattern:
 
@@ -51,6 +53,7 @@
 	2. A review builder - buildName, buildPicture, buildText, buildRank
 	3. Contact info builder - buildAddress, buildPhone
 
+![](https://raw.githubusercontent.com/zivgi/DesignPatterns---Behind-the-Basic.-Presentation-for-Zap/master/5-7-2016%2012-11-51%20PM.jpg)
 # Strategy Pattern (Behavioral)
 
 1. Strategy pattern defines a set of algorithms for specific task that can be used interchangeably.
@@ -63,6 +66,7 @@
 9. Example - PaymentStrategy - `CreditCardStrategy`, `PaypalStrategy`
 10. Strategy in c#: `Array.Sort<T> Method (T[], IComparer<T>)`
 
+![](https://raw.githubusercontent.com/zivgi/DesignPatterns---Behind-the-Basic.-Presentation-for-Zap/master/5-7-2016%203-52-17%20PM.jpg)
 
 # State Pattern (behavioral)
 1. Encapsulate object varying behavior based on its internal state (state-dependent behavior)
@@ -114,6 +118,8 @@
 4. We create decorators to prevent creating permutations of classes.
 5. The constructor takes an instance of the object (concrete class or another decorator)
 6. Demonstration - Yellowpage item: Item can be decorated with the pay pal logo and public trust logo
+
+![](https://raw.githubusercontent.com/zivgi/DesignPatterns---Behind-the-Basic.-Presentation-for-Zap/master/5-7-2016%2011-48-57%20PM.jpg)
 
 # Flyweight pattern
 1. Minimize memory use by sharing data with similar typed objects
